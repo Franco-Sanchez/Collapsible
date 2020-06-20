@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica, sans-serif;
+}
+
+.contenedorPrincipal {
+    position: relative;
+    border: 1px solid #e4baba;
+}
+
+.contenedorPrincipal div:nth-child(1), .contenedorPrincipal div:nth-child(3), .contenedorPrincipal p:nth-child(2), .contenedorPrincipal p:nth-child(4) {
+    border-bottom: 1px solid #e4baba;
+} 
+
+.contenedorPrincipal p:nth-child(6) {
+    border-top: 1px solid #e4baba;
+}
+
+.contenedorHijo{
+    cursor: pointer;
+    display: block;
+    background-color: #f6f6f6;
+    color: #9cb4e5;
+    font-weight: bold;
+    padding: 15px;
+}
+
+p {
+    margin: 0;
+    padding: 15px;
+    display: none;
+}
+
+.apareceParrafo {
+    display: block;
+}
